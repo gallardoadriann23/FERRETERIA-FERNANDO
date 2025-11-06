@@ -1,0 +1,117 @@
+.encabezado{
+	font-family: Courier New;
+	background-color: black;
+	width: 150;
+	color: white;
+		margin: 1px 100% 1 100%;
+	    padding: 30px 100px 30px 100px;
+	text-decoration: none;
+	position: relative;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+nav a:hover{
+	color: red;
+}
+
+	
+	a{
+		text-decoration: none;
+		color:white;
+		
+}
+.logo{
+	margin: -20px 100px -1px -95px;
+	position:absolute;
+}
+
+.div1{
+	margin: 0px 225px 0.5px 225px;
+	background-color: black;
+	position: relative;
+	padding: 50px 0px 200px 0px;
+	color: white;
+	font-family: Courier New;
+}
+.div2{
+	font-family: Courier New;
+	margin: 50px 50px 0px 800px;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 50px 50px 50px 50px;
+	border-radius: 20px;
+	color: white;
+	position; relative;
+}
+.db1{
+	font-family: Courier New;
+	position: relative;
+	position: absolute;
+	margin: 1px 300px 0px 150px;
+}
+.boton1{
+	background-color: yellow;
+	color: black;
+	border-radius: 5px;
+	border: yellow;
+	padding: 20px 10px 20px 10px;
+	margin: -40px 0px -5px 950px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.boton1:hover{
+	background-color: #FACFC5
+}
+.vid1{
+	position: absolute;
+	margin: -10px 50px 0px 100px;
+}
+.div3{
+	font-family: Courier New;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 50px 50px 50px 50px;
+	border-radius: 20px;
+	color: white;
+	position: absolute;
+	position; relative;
+	margin: 0px 100px 100px 100px;
+	border: 5px groove white;
+}
+.marque{
+	background-color: gray;
+	color: white;
+		margin: 1px 100% 1 100%;
+	text-decoration: none;
+	position: relative;
+}
+.div4{
+		margin: 50px 200px 0px 300px;
+		padding: 50px 50px 50px 50px;
+		border-radius: 20px;
+	color: white;
+	position: absolute;
+	position; relative;
+}
+
+.div5{
+	font-family: Courier New;
+	margin: 30px 150px 0px 150px;
+		padding: 25px 25px 25px 25px;
+		background-color: black;
+		border-radius: 20px;
+	color: white;
+	position; relative;
+	border: white;
+	border: 5px groove white;
+
+.logo{
+	margin: -20px 100px -1px -90px;
+	position:absolute;
+}
+
+.logo2{
+	margin: 0px 100px -1px 550px;
+	position:absolute;
+}
+
+	
+

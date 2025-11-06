@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"
+  type= "text/css"
+  href="MPWC.css"/>
+<title>CONTACTO</title>
+<meta charset="UTF-8">
+  <meta name="description" content="Esta pagina se creo con el proposito de hacer el proyecto final en el modelo de Diseño y Elaboracion de Paginas web">
+  <meta name="keywords" content="mi vida, presente, pasado, futuro">
+  <meta name="author" content="GALLARDO SEGURA JOSEPH ADRIAN">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+body {
+margin: 0;
+background: url(HNF1.webp);
+background-size: cover;
+background-attachment: dixed;
+}
+.p {
+font-family:courier;
+}
+.boton2{
+background-color: yellow;
+}
+
+</style>
+</head>
+<body>
+  <nav>
+<div class="encabezado">
+<div class="logo"> <a href="MPW.html">
+ <img src="log9.png" alt="(camioneta gris)" width="90px" height="50px"> </a> </div>
+<div class="db1"> 
+<form class="frm1" action="MPWCONTACTO.html">
+<button class="boton1" name="(debera hacer clic en el boton de abajo)" type="submit" value="HTML">CONTACTANOS</button>
+</form>
+ </div>
+<header>
+|
+<a href="MPW.html">  INICIO  </a>
+|
+<a href="MPWCATALOGO.html">  CATALOGO  </a>
+|
+<a href="MPWSOPORTE.html">  SOPORTE  </a>
+|
+</nav>
+</header>
+</div>
+<center>
+<h1 style=color:white>CONTACTO</h1>
+</center>
+<div class="vid1">
+<video width="500" height="400" autoplay muted loop controls>
+  <source src="CARROS1.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
+</div>
+<div class="div2">
+<h3>Es necesario que escribas tu informacion </h3>
+<form id="frm1" action="MPWPF.html">
+  Nombre: <br> <input type="text" name="fname" value=""><br><br>
+  Correo electronico: <br> <input type="text" name="lname" value=""><br><br>
+  Mensaje: <br> <input type="text" name="lname" value=""><br><br>
+  <label for="motivo">motivo de cita</label> <br>
+<select id="motivo" name="motivo"> <br>
+<option value="(texto)">contacto</option>
+<option value="(texto)">queja</option>
+<option value="(texto)">propuesta</option>
+<option value="(texto)">pedido</option>
+<option value="(texto)">cita</option>
+<br>
+<input type="submit" value="Enviar">
+</form>
+</div>
+
+<script>
+</script>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("frm1").length;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</body>
+</html>
